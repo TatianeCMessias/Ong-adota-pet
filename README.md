@@ -5,6 +5,7 @@ Aplicação web moderna, inclusiva e 100% responsiva para a **ONG Adota Pet**, d
 O site foi projetado e testado para funcionar com perfeição em **smartphones, tablets e computadores desktop**.
 
 ---
+## LINK - [Vercel](https://ong-adota-pets.vercel.app/)
 
 ## 🚀 Como Executar o Projeto
 
@@ -93,29 +94,29 @@ O projeto segue rigorosamente as boas práticas de HTML semântico e WCAG:
 
 ```
 Ong-adota-pet/
-├── index.html                  # HTML5 base semântico com meta tags e fontes
-├── package.json                # Dependências (React 18, Vite, Lucide React)
-├── vite.config.js              # Configuração do Vite
+├── index.html                
+├── package.json               
+├── vite.config.js             
 ├── .gitignore
 ├── README.md
 ├── src/
-│   ├── main.jsx                # Ponto de montagem React
-│   ├── App.jsx                 # Componente raiz e gerenciamento de estado
-│   ├── index.css               # Design system e folhas de estilo responsivas
+│   ├── main.jsx              
+│   ├── App.jsx                 
+│   ├── index.css               
 │   ├── data/
-│   │   └── pets.js             # Base de dados de pets, depoimentos e FAQ
+│   │   └── pets.js             
 │   └── components/
-│       ├── Header.jsx          # Topo com navegação desktop e mobile drawer
-│       ├── Hero.jsx            # Banner principal com números e chamada
-│       ├── PetFilters.jsx      # Barra de pesquisa e selects de filtros
-│       ├── PetCard.jsx         # Card do pet (<article>)
-│       ├── PetGrid.jsx         # Grade de animais com estado vazio
-│       ├── PetModal.jsx        # Detalhes completos do pet selecionado
-│       ├── AdoptionFormModal.jsx # Formulário completo de adoção
-│       ├── HowItWorks.jsx      # Passo a passo da adoção responsável
-│       ├── StoriesSection.jsx  # Depoimentos e finais felizes
-│       ├── DonationSection.jsx # PIX, QR Code e formas de apoiar a ONG
-│       ├── FaqSection.jsx      # Perguntas frequentes (<details>/<summary>)
-│       ├── Footer.jsx          # Rodapé semântico com contatos e endereço
-│       └── Toast.jsx           # Notificações interativas
+│       ├── Header.jsx          
+│       ├── Hero.jsx           
+│       ├── PetFilters.jsx    
+│       ├── PetCard.jsx         
+│       ├── PetGrid.jsx         
+│       ├── PetModal.jsx        
+│       ├── AdoptionFormModal.jsx 
+│       ├── HowItWorks.jsx      
+│       ├── StoriesSection.jsx  
+│       ├── DonationSection.jsx 
+│       ├── FaqSection.jsx      
+│       ├── Footer.jsx          
+│       └── Toast.jsx          
 ```
