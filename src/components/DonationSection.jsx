@@ -17,7 +17,7 @@ export default function DonationSection({ onNotify }) {
       <div className="container">
         <div className="donation-grid">
           <div className="donation-content">
-            <span className="section-tag" style={{ background: 'rgba(255, 107, 74, 0.2)', color: '#FF8A65' }}>
+            <span className="section-tag" style={{ background: 'rgba(232, 74, 127, 0.25)', color: '#F472B6', borderColor: 'rgba(232, 74, 127, 0.4)' }}>
               <Heart size={14} /> Ajude a Salvar Vidas
             </span>
             <h2 id="donation-title">
@@ -52,10 +52,9 @@ export default function DonationSection({ onNotify }) {
               </button>
               <a 
                 href="#contato" 
-                className="btn btn-outline" 
-                style={{ borderColor: 'rgba(255,255,255,0.3)', color: 'white' }}
+                className="btn btn-pink"
               >
-                Quero ser Voluntário(a)
+                <Users size={18} /> Quero ser Voluntário(a)
               </a>
             </div>
           </div>

@@ -92,7 +92,7 @@ export default function AdoptionFormModal({ pet, onClose, onSubmitSuccess }) {
         <div className="modal-content">
           {isSubmitted ? (
             <div style={{ textAlign: 'center', padding: '2.5rem 1rem' }}>
-              <div style={{ width: 68, height: 68, background: '#DCFCE7', color: '#16A34A', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 1.5rem' }}>
+              <div style={{ width: 72, height: 72, background: 'var(--color-primary-light)', color: 'var(--color-primary)', border: '2px solid var(--color-border)', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 1.5rem', boxShadow: '0 6px 16px rgba(232, 74, 127, 0.2)' }}>
                 <CheckCircle size={38} />
               </div>
               <h2 style={{ fontSize: '1.6rem', color: 'var(--color-dark)', marginBottom: '0.75rem' }}>
